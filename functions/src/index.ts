@@ -1,7 +1,7 @@
-import { onRequest } from "firebase-functions/v2/https"
 import * as logger from "firebase-functions/logger"
 import * as admin from "firebase-admin"
-import { discordInteractionHandler } from "./services/discord/initializeDiscordClient"
+import { onRequest } from "firebase-functions/v2/https"
+import { discordInteractionHandler } from "./bots/discord"
 
 admin.initializeApp()
 
