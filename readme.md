@@ -1,0 +1,1 @@
+firebase functions:config:set abel="$(cat ./functions/.config.json)"
